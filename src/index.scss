@@ -2,21 +2,5 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-
-h1, h2 {
-  font-size: 4rem;
-}
-
-h3 {
-  font-size: 2rem;
-}
-
-h4 {
-  font-size: 1.2rem;
-}
+@import "src/styling/buttons";
+@import "src/styling/typography";
