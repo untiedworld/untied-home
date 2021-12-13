@@ -2,5 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import "src/styling/buttons";
+@import "styling/foundation";
+@import "styling/components/button";
+@import "styling/components/hero";
 @import "src/styling/typography";
