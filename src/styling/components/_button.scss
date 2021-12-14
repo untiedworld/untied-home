@@ -1,14 +1,9 @@
-button {
+button, .button {
   @apply px-6 py-4 transition-colors hover:text-black;
   font-size: 1.1rem;
   font-weight: bold;
 
   &.primary {
     @apply bg-primary rounded-full hover:bg-primary-500 text-white;
-  }
-
-  &.large {
-    @apply px-10 py-6;
-    font-size: 1.4rem;
   }
 }
