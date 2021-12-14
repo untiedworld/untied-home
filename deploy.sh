@@ -23,6 +23,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:ankhuve/ankhuve.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f --dry-run git@github.com:ankhuve/konnect-web.git master:gh-pages
+git push -f git@github.com:ankhuve/konnect-web.git master:gh-pages
 
 cd -
