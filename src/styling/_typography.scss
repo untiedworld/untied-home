@@ -1,8 +1,9 @@
 html {
-  @apply font-sans;
+  @apply font-sans text-text;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #4a6288;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 ::selection {
@@ -12,12 +13,13 @@ html {
 
 h1 {
   font-size: 4rem;
-  line-height: 4.4rem;
+  line-height: 4.75rem;
+  font-weight: bold;
 }
 
 h2 {
   font-size: 3rem;
-  line-height: 3.5rem;
+  line-height: 4rem;
 }
 
 h3 {

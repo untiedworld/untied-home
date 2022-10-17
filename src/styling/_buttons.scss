@@ -1,8 +1,0 @@
-button {
-  @apply px-4 py-2 transition-colors hover:text-black;
-  font-size: 1.2rem;
-
-  &.primary {
-    @apply bg-blue-400 rounded hover:bg-blue-500 text-white;
-  }
-}
