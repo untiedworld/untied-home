@@ -24,6 +24,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:ankhuve/ankhuve.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:untiedworld/untied-home.git main:gh-pages
+git push -f git@github.com:untiedworld/untied-home.git master:gh-pages
 
 cd -
