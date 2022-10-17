@@ -13,7 +13,8 @@ yarn build
 cd dist
 
 # if you are deploying to a custom domain
-echo 'dev.gokonnect.io' > CNAME
+echo 'untied.world' > CNAME
+
 
 git init
 git add -A
@@ -23,6 +24,6 @@ git commit -m 'deploy'
 # git push -f git@github.com:ankhuve/ankhuve.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:untiedworld/untied-home.git master:gh-pages
+git push -f git@github.com:untiedworld/untied-home.git main:gh-pages
 
 cd -
