@@ -1,8 +1,8 @@
 {
-  "name": "konnect-home",
+  "name": "untied-home",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "start": "vite",
     "build": "tsc && vite build",
     "serve": "vite preview",
     "deploy": "./deploy.sh"
